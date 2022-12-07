@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="./css/zero.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <h1>Tic tac toe</h1>
+    <p>C'est le tour de : <span>😍</span></p>
+    <label for="">Choisissez le numéro de la ligne</label>
+    <input placeholder="0-2" id="line" min="0" max="2" onkeyup="this.value = this.value.replace(/[^0-2]/g,'');" maxlength="0" type="number">
+    <label for="">Choisissez le numéro de la case</label>
+    <input placeholder="0-2" id="case" min="0" max="2" onkeyup="this.value = this.value.replace(/[^0-2]/g,'');" maxlength="0" type="number">
+    <button>Occuper la case</button>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <script src="./js/script.js"></script>
+</body>
+</html>

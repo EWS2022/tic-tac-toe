@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap');
+
+body{
+    min-height: 110vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    font-family: 'Marhey', cursive;
+    background-image: url(../img/heart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5vh 16px;
+
+}
+
+
+h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(205, 50, 50);
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    width: 80px;
+    height: 40px;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 8px;
+    transition: 0.4s;
+    margin-bottom: 10px;
+    
+}
+
+input:focus{
+    box-shadow: 0 0 19px rgb(128, 0, 0);
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: white;
+}
+
+td{
+    border: 1px solid black;
+    width: 33%;
+    height: 33%;
+    font-size: 40px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(128, 0, 0);
+}
+
